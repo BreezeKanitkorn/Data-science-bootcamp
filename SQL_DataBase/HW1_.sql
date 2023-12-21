@@ -7,9 +7,9 @@ PIZZA restaurant
   -orders
   -menus (Pizza)
 
-2. three SQL quries 
+2. Three SQL quries 
   2.1 JOIN
-  2.2 Subquriies or WITH
+  2.2 Subquriies and WITH clause
   2.3 Agregate fucntions*/
 
 --HW1 : Create tables
