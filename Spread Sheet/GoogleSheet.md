@@ -1,4 +1,19 @@
-ไฟล์แบบฝึกหัด https:...
+## Exercise file
+
+Google sheet101
+https://docs.google.com/spreadsheets/d/1C7HsdkzTgWLHgd5Lr4jAuLWivG8Cg0DDaYJt-Lz_bPM/edit?usp=drive_link
+
+Google sheet102
+https://docs.google.com/spreadsheets/d/1_SLVfLV-szKjcyJlnGkIm2JrcMorIOMileb8w33QOq4/edit?usp=drive_link
+
+Basic_Spreadsheet _Google Sheets+HW 
+https://docs.google.com/spreadsheets/d/1W1HkrXjpfJxxmyzNZULyqJ4eSV9B-rApjzItX7myc4I/edit?usp=drive_link
+
+Basic Pivot
+https://docs.google.com/spreadsheets/d/1W1HkrXjpfJxxmyzNZULyqJ4eSV9B-rApjzItX7myc4I/edit?usp=drive_link
+
+To Do app 
+https://docs.google.com/spreadsheets/d/19sfvV_yzn63xh7IoLyXZA4WwPYXhyodg_CTyUBNPy6Q/edit?usp=drive_link
 
 ---
 
@@ -82,8 +97,6 @@ OR = `+`
 
 ## HOMEWORK 1 เทสีทั้ง ROW
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/8be6d159-1cb9-4f04-acdd-d11a8c5d9465/49f49697-c860-4787-9e86-a7fd77790e08/Untitled.png)
-
 เราต้อง lock column ด้วย `$` เช่น `$H` เพราะเวลา column ขยับไปทางขวา สูตรมันจะขยับตามไปด้วย 
 
 นี่เป็นเหตุผลว่าทำไมเวลาเราจะ format แค่ column เดียว 
@@ -94,85 +107,7 @@ OR = `+`
 
 ---
 
-## **Function Query ใน Google Sheets**
-
-ลำดับการเขียนสำคัญมาก
-
-`select` → `limit` → `label` 
-
-`contains` เป็น case sensitive และมีเฉพาะใน Google SQL
-
-`LIKE`= pattern matching
-
----
-
 ## HOMEWORK 2 อ่าน Google Query language
-
-Google พัฒนา SQL ขึ้นมาเองทำให้บาง Operation ไม่เหมือนกับ Standard SQL
-
-[Query Language Reference (Version 0.7)  |  Charts  |  Google for Developers](https://developers.google.com/chart/interactive/docs/querylanguage)
-
-**Query Language Reference (Version 0.7)**
-
-**Introduction**
-
-- บางครั้ง data ที่นำมาใช้ไม่ match กับ Visualizatoins ที่เราต้องการจะ present
-- Query ช่วยแก้ปัญหานั้นได้
-- syntax ของมัน คล้ายๆกับ SQL
-
-**Using the Query Language**
-
-- JavaScript Code
-- Parameter in the data source URL
-    - You must use the ID, not the label เช่น `select A, sum(B), group by A`
-
-**Language Clauses**
-
-- All clauses are optional.
-- Clauses are separated by spaces.
-- The order of the clauses must be as follows
-
-| Clause | Usage |
-| --- | --- |
-| https://developers.google.com/chart/interactive/docs/querylanguage#Select | Selects which columns to return, and in what order. If omitted, all of the table's columns are returned, in their default order. |
-| https://developers.google.com/chart/interactive/docs/querylanguage#Where | Returns only rows that match a condition. If omitted, all rows are returned.
-- contains
-- starts with
-- ends with
-- matches 
-- like %, _ |
-| https://developers.google.com/chart/interactive/docs/querylanguage#Group_By | Aggregates values across rows. |
-| https://developers.google.com/chart/interactive/docs/querylanguage#Pivot | Transforms distinct values in columns into new columns. |
-| https://developers.google.com/chart/interactive/docs/querylanguage#Order_By | Sorts rows by values in columns. |
-| https://developers.google.com/chart/interactive/docs/querylanguage#Limit | Limits the number of returned rows. |
-| https://developers.google.com/chart/interactive/docs/querylanguage#Offset | Skips a given number of first rows. |
-| https://developers.google.com/chart/interactive/docs/querylanguage#Label | Sets column labels. |
-| https://developers.google.com/chart/interactive/docs/querylanguage#Format | Formats the values in certain columns using given formatting patterns. |
-| https://developers.google.com/chart/interactive/docs/querylanguage#Options | Sets additional options. |
-
-ใน SQL function filter `where` จะ Run ก่อน `select`
-
-**Aggregation Functions**
-
-- Aggregation functions can be used in `select`, `order by`, `label`, `format` clauses.
-- They *cannot* appear in `where`, `group by`, `pivot`, `limit`, `offset`, or `options` clauses.
-- `AVG()`
-- `MAX()`
-- `MIN()`
-- `SUM()`
-- `COUNT()`
-
-**Note:** Aggregation functions can only take a column identifier as an argument:
-
-**Scalar Functions**
-
-Scalar functions can be used in any of the following clauses: `[select](https://developers.google.com/chart/interactive/docs/querylanguage#Select)`, `[where](https://developers.google.com/chart/interactive/docs/querylanguage#Where)`, `[group by](https://developers.google.com/chart/interactive/docs/querylanguage#Group_By)`, `[pivot](https://developers.google.com/chart/interactive/docs/querylanguage#Pivot)`, `[order by](https://developers.google.com/chart/interactive/docs/querylanguage#Order_By)`, `[label](https://developers.google.com/chart/interactive/docs/querylanguage#Label),` and `[format](https://developers.google.com/chart/interactive/docs/querylanguage#Format)`.
-
-- `year()`
-- `month()`
-- `day()`
-- `upper()`
-- `lower()`
 
 ---
 
@@ -180,7 +115,6 @@ Scalar functions can be used in any of the following clauses: `[select](https:/
 
 TIPS: เขียน Query อันแรกให้ได้ก่อนแล้วค่อยๆ ถอดมันมาเป็น Dropdown list
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/8be6d159-1cb9-4f04-acdd-d11a8c5d9465/d47c6759-d506-4646-9b92-62dc69f75a23/Untitled.png)
 
 <aside>
 💡 `&` ใช้เชื่อม text
@@ -201,13 +135,11 @@ FALSE = EXACT MATCH
 
 =**xlookup(key**ที่จะเอาไปใช้หา, lookup_range, dataที่ต้องการ, missing value**)**
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/8be6d159-1cb9-4f04-acdd-d11a8c5d9465/9119974a-d3f8-4e1f-a2a3-5dd5bfe4f9f9/Untitled.png)
 
 ---
 
 ## HOMEWORK 4 vlookup sheet 11 ดึงตาราง 2 อันล่าง ขึ้นมารวมกับอันบน
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/8be6d159-1cb9-4f04-acdd-d11a8c5d9465/6f5acb2f-d00d-44d6-be19-ba6e91bedd7e/Untitled.png)
 
 สามารถเลือก column ที่จะดึงมาได้ ถ้าใช้ `=ArrayFormula(VLOOKUP(search_key,range,{2,3,4,5},FALSE))`
 
@@ -225,7 +157,7 @@ data → data cleanup
 
 ## HOMEWORK 5 sheet 14 convert thaidate to english date
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/8be6d159-1cb9-4f04-acdd-d11a8c5d9465/efbd0845-777c-4d52-b3a1-04a8fcff1da0/Untitled.png)
+
 
 <aside>
 💡 ถ้าเกิด case ที่มี error ให้ใช้ XLOOKUP ทำงานง่ายกว่า VLOOKUP
@@ -268,7 +200,6 @@ data → data cleanup
 
 ## HOMEWORK 6 sheet16 **Project - ID Card Parser**
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/8be6d159-1cb9-4f04-acdd-d11a8c5d9465/a676fefd-ac96-4ab3-9865-24953ee98ff5/Untitled.png)
 
 ---
 
@@ -281,9 +212,6 @@ data → data cleanup
 
 ## Google Translate
 
-[Language support  |  Cloud Translation  |  Google Cloud](https://cloud.google.com/translate/docs/languages)
-
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/8be6d159-1cb9-4f04-acdd-d11a8c5d9465/7f646984-b4c6-4adf-8b81-a761cb10dadd/Untitled.png)
 
 ---
 
@@ -291,7 +219,6 @@ data → data cleanup
 
 การบ้านเปลี่ยน c เป็น F
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/8be6d159-1cb9-4f04-acdd-d11a8c5d9465/cb559246-55d7-4d88-bc69-15cd1c3e5d70/Untitled.png)
 
 ---
 
@@ -303,7 +230,7 @@ data → data cleanup
 
 ---
 
-## HOMEWORK 7
+## Bonus
 
 1. อธิบายวิธีการสร้าง Named Function
 สร้าง Function ไว้ใช้เอง
