@@ -1,4 +1,4 @@
-# Data-science-bootcamp9
+# Data-science-bootcamp
 I'm learning data science bootcamp. There is 10 sprints in the program.
 
 - Intro to data science
