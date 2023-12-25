@@ -1,4 +1,6 @@
 ## Create Pizza Chatbot
+## Link for run the code as below
+## https://colab.research.google.com/drive/19SyPy-OyDcrnRJnfZyJojCZHl_jF6bnd?usp=sharing#scrollTo=bI4JBan7GzUU
 
 chatbot <- function(){
 ## create df : pizza menu
