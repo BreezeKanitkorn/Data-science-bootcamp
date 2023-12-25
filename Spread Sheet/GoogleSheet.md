@@ -1,12 +1,8 @@
-ไฟล์แบบฝึกหัด https://docs.google.com/spreadsheets/d/1mB0vZkRyJPc9YXA81CumicmzdWESi96f5tb4xFjU-tQ/edit#gid=0
+ไฟล์แบบฝึกหัด https:...
 
 ---
 
 ## Intro to Google Spread Sheets
-
-> We’re going to practice a lot.
-**Do** or **Do Not**, There is no Try.
-> 
 
 เรามอง spreadsheet เป็น software ไม่ใช่แค่ data analysis
 
