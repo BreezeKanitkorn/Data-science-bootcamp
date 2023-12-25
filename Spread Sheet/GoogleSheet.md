@@ -6,7 +6,7 @@ https://docs.google.com/spreadsheets/d/1C7HsdkzTgWLHgd5Lr4jAuLWivG8Cg0DDaYJt-Lz_
 Google sheet102
 https://docs.google.com/spreadsheets/d/1_SLVfLV-szKjcyJlnGkIm2JrcMorIOMileb8w33QOq4/edit?usp=drive_link
 
-Basic_Spreadsheet _Google Sheets+HW 
+Main_Spreadsheet _Google Sheets + HW 
 https://docs.google.com/spreadsheets/d/1W1HkrXjpfJxxmyzNZULyqJ4eSV9B-rApjzItX7myc4I/edit?usp=drive_link
 
 Basic Pivot
@@ -95,7 +95,7 @@ OR = `+`
 
 ---
 
-## HOMEWORK 1 เทสีทั้ง ROW
+## HW 1 เทสีทั้ง ROW
 
 เราต้อง lock column ด้วย `$` เช่น `$H` เพราะเวลา column ขยับไปทางขวา สูตรมันจะขยับตามไปด้วย 
 
@@ -107,11 +107,11 @@ OR = `+`
 
 ---
 
-## HOMEWORK 2 อ่าน Google Query language
+## HW 2 อ่าน Google Query language
 
 ---
 
-## HOMEWORK 3 เขียน dynamic query ทำ dropdown from range
+## HW 3 เขียน dynamic query ทำ dropdown from range
 
 TIPS: เขียน Query อันแรกให้ได้ก่อนแล้วค่อยๆ ถอดมันมาเป็น Dropdown list
 
@@ -138,7 +138,7 @@ FALSE = EXACT MATCH
 
 ---
 
-## HOMEWORK 4 vlookup sheet 11 ดึงตาราง 2 อันล่าง ขึ้นมารวมกับอันบน
+## HW 4 vlookup sheet 11 ดึงตาราง 2 อันล่าง ขึ้นมารวมกับอันบน
 
 
 สามารถเลือก column ที่จะดึงมาได้ ถ้าใช้ `=ArrayFormula(VLOOKUP(search_key,range,{2,3,4,5},FALSE))`
@@ -155,7 +155,7 @@ data → data cleanup
 
 ---
 
-## HOMEWORK 5 sheet 14 convert thaidate to english date
+## HW 5 sheet 14 convert thaidate to english date
 
 
 
@@ -198,7 +198,7 @@ data → data cleanup
 
 ---
 
-## HOMEWORK 6 sheet16 **Project - ID Card Parser**
+## HW6 sheet16 **Project - ID Card Parser**
 
 
 ---
@@ -215,43 +215,12 @@ data → data cleanup
 
 ---
 
-## Named Function
+## HW 7Named Function
 
 การบ้านเปลี่ยน c เป็น F
 
 
----
 
-## LAMBDA Function
-
-=LAMBDA(name, formula_expression)
-
-ใช้คู่กับ =BYCOL(data_range,LAMBDA)
-
----
-
-## Bonus
-
-1. อธิบายวิธีการสร้าง Named Function
-สร้าง Function ไว้ใช้เอง
-    
-    Data → Named Function → Add New Function → Function Name → Formula definition → Argument placeholders → Formula Definition → Next → Done 
-    
-2. VLOOKUP vs. XLOOKUP ใช้ต่างกันยังไง อธิบายสั้นๆ ชอบสูตรไหนมากกว่ากัน
-    
-    =VLOOKUP(search_key, range, index, FALSE) ใน google sheet ดีงหลายcolumnพร้อมกันได้โดยใข้ {}
-    
-    =XLOOKUP(search_key, lookup_range, result_range, [missing_value]) 
-    ถ้าจะทำเร็วๆชอบ XLOOKUP เพราะใส่ค่าง่ายกว่า และมี missing value ไม่ต้องทำ IFERROR()
-    
-3. อธิบาย 5 clauses พื้นฐานของ `=QUERY()` เช่น select where group by order by pivot label limit etc.
-- select ใช้เลือก column
-- where ใช้ filter
-- group by ใช้ จัดกลุ่ม
-- order by ใช้ sort
-- pivot มันคือการทำ aggregation และ group by ในแนวนอน โดยไม่ดึง column header มา
-- label ใช้ เปลี่ยนชื่อหัว column มีเฉพาะใน google sheets
-- limit ใช้ กำหนด row ของข้อมูลที่เราดึงมา
 4. Regular Expression คืออะไร ยกตัวอย่าง syntax สั้นๆซัก 2-3 อัน
 คือ การทำ pattern matching 
 **`.`** match any character
