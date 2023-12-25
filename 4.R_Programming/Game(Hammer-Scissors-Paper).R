@@ -1,3 +1,7 @@
+## Create Game Hammer-Scissors-Paper
+## Link for run the code as below
+## https://colab.research.google.com/drive/19SyPy-OyDcrnRJnfZyJojCZHl_jF6bnd?usp=sharing#scrollTo=bI4JBan7GzUU
+
 game <- function(){
     print("Hi! welcome to the game 🔨✂️📃")
     flush.console()
